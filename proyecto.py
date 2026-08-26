@@ -31,6 +31,6 @@ class Usuario:
         self.tareas = [tarea for tarea in self.tareas if tarea.titulo != titulo_tarea]
         #Recorre toda la lista de tareas hasta llegar a la tarea que tenga el titulo igual al ingresado
 
-    def obtener_tareas(Self):
+    def obtener_tareas(self):
         return self.tareas
         

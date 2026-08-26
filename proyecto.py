@@ -15,4 +15,4 @@ class Tarea:
     def editar_tarea(self, nuevo_titulo, nueva_descripcion, nueva_fecha):
         self.nuevo_titulo = nuevo_titulo
         self.nueva_descripcion = nueva_descripcion
-        self.nueva_fecha = nueva_fecha
+        self.fecha_vencimiento = nueva_fecha
